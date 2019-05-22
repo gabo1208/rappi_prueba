@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  width: 7vmin;
+  pointer-events: none;
+  flex-direction: row;
+  margin-top: -22px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 12vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.store-name{
+  margin: 1.5vmin auto 0 auto;
+}
+
+.title-logo{
+  display: inline;
+  margin-top: 5vmin;
+}
+
+.pull-right-cart{
+  margin: 2vmin 8.5vmin 1vmin auto;
+  color: red;
+}
+
+.user-pic{
+  width: 10vmin;
+  margin: 2vmin 10vmin;
+}
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+
+@media (max-width: 970px) {
+  .App-header{
+    min-height: 24vmin;
+  }
+
+  .store-name{
+    margin-top: -3.5vmin;
+  }
+
+  .search-field{
+    position: absolute;
+    top: 14vmin;
+    margin-left: 10vmin;
+  }
+
+  .pull-right-cart{
+    margin-top: -2vmin;
+  }
+}
+
+@media (max-width: 575px) {
+  .App-header{
+    min-height: 34vmin;
+  }
+
+  .store-name{
+    margin-top: 0vmin;
+  }
+
+  .search-field{
+    position: absolute;
+    top: 22vmin;
+    margin-left: 14vmin;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 1199px) {
+
+}

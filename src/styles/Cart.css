@@ -1,0 +1,27 @@
+.modal-title, .close{
+    color: red;
+    border-color: none;
+}
+
+.close:hover{
+    color: red;
+    opacity: 1;
+}
+
+.btn.btn-danger{
+    background-color: red;
+}
+
+.cart-prod{
+    margin-top: 2vmin;
+    text-align: start;
+}
+
+.close.prod{
+    float: left;
+    margin-top: 1vmin;
+}
+
+#cartModal input{
+    max-width: 70%;
+}

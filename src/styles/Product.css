@@ -1,0 +1,25 @@
+.product-item{
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.product-item .card-title{
+    height: 10vh;
+}
+
+.card-link{
+    color: blue;
+}
+
+.card-link:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.fas.fa-cart-plus{
+    color: red;
+}
+
+.product-text{
+    margin: 0;
+}
