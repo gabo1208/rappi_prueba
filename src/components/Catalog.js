@@ -210,7 +210,8 @@ class Catalog extends Component {
         <div className="categories-menu">
           { this.state.categories.map(category => (
             <div key={ category.name } >
-              <Category category={category} categoryHandler={this.categoryHandler} />
+              <Category category={category} categoryHandler={this.categoryHandler}
+                currentId={this.state.current_category_id} />
             </div>
           )) }
           <br />

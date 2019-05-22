@@ -17,7 +17,7 @@ Ir a [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
 
 ## Comentarios y Obvservaciones
  - Se utilizo Bootstrap, junto con todas sus dependencias para ayudar en el diseño.
- - Se considero innecesario trabajar con herramientas como Next.js o Gatsby.js para <br>
+ - Se considero innecesario trabajar con herramientas como Next.js o Gatsby para <br>
  mantener el estado del carrito, ya que la prueba va enfocada a frontend.
  - Se usa el localStorage de react para mantener el estado del carrito.
  - Hay un error en las categorías ya que hay dos con el mismo id, al requerirse <br>

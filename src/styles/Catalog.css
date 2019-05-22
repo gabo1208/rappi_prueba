@@ -70,7 +70,3 @@
   background: #4CAF50;
   cursor: pointer;
 }
-
-.categories-menu-item[aria-expanded=true]{
-  opacity: 0.8;
-}
