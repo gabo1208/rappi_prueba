@@ -54,7 +54,7 @@ class Catalog extends Component {
         value: event.target.value,
         range_value: this.numberToString(event.target.value)
       },
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
@@ -67,21 +67,21 @@ class Catalog extends Component {
   filterAvailableHandler(){
     this.setState(
       {filter_available: !this.state.filter_available},
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
   filterQuantityHandler(){
     this.setState(
       {filter_quantity: !this.state.filter_quantity},
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
   filterValueHandler(){
     this.setState(
       {filter_value: !this.state.filter_value},
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
@@ -93,7 +93,7 @@ class Catalog extends Component {
         order_quantity_asc: false,
         order_quantity_desc: false
       },
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
@@ -105,7 +105,7 @@ class Catalog extends Component {
         order_quantity_asc: false,
         order_quantity_desc: false
       },
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
@@ -117,7 +117,7 @@ class Catalog extends Component {
         order_quantity_asc: false,
         order_quantity_desc: false
       },
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
@@ -129,7 +129,7 @@ class Catalog extends Component {
         order_quantity_asc: !this.state.order_quantity_asc,
         order_quantity_desc: false
       },
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
@@ -141,14 +141,14 @@ class Catalog extends Component {
         order_quantity_asc: false,
         order_quantity_desc: !this.state.order_quantity_desc
       },
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
   categoryHandler(value){
     this.setState(
       {current_category_id: value},
-      () => this.filterProducts()
+      this.filterProducts
     );
   }
 
